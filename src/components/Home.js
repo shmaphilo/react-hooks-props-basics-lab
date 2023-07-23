@@ -6,8 +6,10 @@ function Home(props) {
       <h1 style={{ color: props.color }}>
         {props.name} is a Web Developer from {props.city}
       </h1>
-    </div>
+      
+    </div>  
   );
 }
+
 
 export default Home;
